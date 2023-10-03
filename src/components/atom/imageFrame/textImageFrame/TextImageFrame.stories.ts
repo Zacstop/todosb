@@ -16,7 +16,6 @@ type Story = StoryObj<typeof meta>;
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 export const Default: Story = {
   args: {
-    title: "MediXForm",
     descripsion: "쉽고, 편리한 시스템 환경",
   },
 };

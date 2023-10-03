@@ -2,14 +2,10 @@ import React from 'react';
 import { TextImageFrameStyle } from './TextImageFrame.styles';
 
 interface TextImageFrameProps {
-  title: string,
   descripsion: string,
-  onLogin: () => void;
-  onLogout: () => void;
 }
 
 export const TextImageFrame = ({
-  title,
   descripsion,
 }: TextImageFrameProps) => {
   return (

@@ -21,13 +21,13 @@ export const ImageFrameStyle = {
   `,
 
   ImageWrapper: styled.div`
+    padding: 20px;
     border-radius: 25px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #C4C4C4;
+    background: url("http://placehold.it/200x200"), lightgray 50% / cover no-repeat, #C4C4C4;
   `,
 
   Image: styled.img`
     width: auto;
     border-radius: inherit;
-    padding: 20px;
   `
 };

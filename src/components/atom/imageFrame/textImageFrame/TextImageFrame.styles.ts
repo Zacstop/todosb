@@ -27,6 +27,7 @@ export const TextImageFrameStyle = {
   `,
 
   TextContainer: styled.div`
+    width: 230px;
     color: var(--Black-primary, #000);
     font-family: Poppins;
     font-size: 18px;
@@ -34,6 +35,10 @@ export const TextImageFrameStyle = {
     font-weight: 600;
     line-height: normal;
     margin: 0px 0px 25px 20px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    display:inline-block;
   `,
 
   Image: styled.img`

@@ -14,8 +14,8 @@ const preview: Preview = {
         customMobile: {
           name: 'Custom Mobile',
           styles: {
-            width: '320px',
-            height: '568px',
+            width: '375px',
+            height: '600px',
           },
           type: 'mobile',
         },
