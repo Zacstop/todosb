@@ -1,7 +1,7 @@
 import { css } from "styled-components";
 
 export const ButtonStyles = css`
-  min-width: 120px;
+  /* min-width: 120px;
   min-height: 44px;
 
   display: flex;
@@ -30,5 +30,17 @@ export const ButtonStyles = css`
 
   &:hover {
     filter: brightness(85%);
-  }
+  } */
+  width: 141px;
+  height: 65px;
+  flex-shrink: 0;
+  font-family: Poppins;
+  border-radius: 10px;
+  background: #FFF;
+  color: #3E86F5;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  word-break: keep-all;
 `;

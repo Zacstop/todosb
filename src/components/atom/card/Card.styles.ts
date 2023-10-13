@@ -120,7 +120,6 @@ export const CardStyle = {
   CardDes: styled.div`
     align-self: stretch;
     color: var(--Black-75, rgba(0, 0, 0, 0.50));
-    font-family: Poppins;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;

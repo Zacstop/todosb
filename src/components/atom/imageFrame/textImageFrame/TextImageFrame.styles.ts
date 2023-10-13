@@ -6,7 +6,7 @@ export const TextImageFrameStyle = {
     height: auto;
     flex-shrink: 0;
     border-radius: 25px;
-    background: var(--White-primary, #FFF);
+    background: #FFF;
     box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.10);
 
     /* mobile */
@@ -21,15 +21,15 @@ export const TextImageFrameStyle = {
   `,
 
   ImageWrapper: styled.div`
+    display: flex;
     padding: 10px;
     border-radius: 25px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #C4C4C4;
+    flex-direction: column;
   `,
 
   TextContainer: styled.div`
     width: 230px;
-    color: var(--Black-primary, #000);
-    font-family: Poppins;
+    color: #000;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;

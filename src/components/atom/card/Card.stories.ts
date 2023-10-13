@@ -17,7 +17,8 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
   args: {
     title: "XForm",
-    menu: "XForm, a patented technology by kubeCRO, revolutionizes clinical trials by allowing various data formats without CRF coding, simplifying the process. It enables anyone to transform CRF into ECRF, cutting preparation time by over 70%. The technology supports text, images, and videos in a user-friendly form, making it both intuitive and efficient.",
+    des: "XForm, a patented technology by kubeCRO, revolutionizes clinical trials by allowing various data formats without CRF coding, simplifying the process. It enables anyone to transform CRF into ECRF, cutting preparation time by over 70%. The technology supports text, images, and videos in a user-friendly form, making it both intuitive and efficient.",
     imageTitle: "쉽고, 편리한 시스템 환경",
+    imageSrc: 'http://placehold.it/260x200',
   },
 };

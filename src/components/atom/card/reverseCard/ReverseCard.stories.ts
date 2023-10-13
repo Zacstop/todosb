@@ -18,5 +18,6 @@ export const Default: Story = {
   args: {
     title: "MediXForm",
     des: "In traditional EDC systems, researchers' responses were accepted as-is, leading to the generation of Queries whenever there was a mismatch with DVP. The Validation system observes in real time whether the data aligns with the DVP category and guides the correct range value if a response falls outside the category, thus completely eliminating system Queries. This innovative approach removes the need for CRA's Query management tasks, making the entire process more efficient and rational.",
+    imageSrc: ""
   },
 };

@@ -5,11 +5,13 @@ import { TextImageFrame } from '../../imageFrame/textImageFrame/TextImageFrame';
 interface CardProps {
   title: string,
   des: string,
+  imageSrc: string,
 }
 
 export const ReverseTextCard = ({
   title,
   des,
+  imageSrc,
 }: CardProps) => {
   return (
     <ReverseCardStyle.Wrapper>
@@ -22,7 +24,7 @@ export const ReverseTextCard = ({
         </ReverseCardStyle.Container>
       </ReverseCardStyle.LeftWrapper>
       <ReverseCardStyle.RightWrapper>
-        <TextImageFrame descripsion={'효율적인 시스템 환경'}/>
+        <TextImageFrame descripsion={'효율적인 시스템 환경'} imageSrc={'http://placehold.it/260x200'}/>
       </ReverseCardStyle.RightWrapper>
     </ReverseCardStyle.Wrapper>
   )

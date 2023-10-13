@@ -4,25 +4,27 @@ import { TextImageFrame } from '../imageFrame/textImageFrame/TextImageFrame';
 
 interface CardProps {
   title: string,
-  menu: string,
+  des: string,
   imageTitle: string,
+  imageSrc: string,
 }
 
 export const TextCard = ({
   title,
-  menu,
+  des,
   imageTitle,
+  imageSrc
 }: CardProps) => {
   return (
     <CardStyle.Wrapper>
       <CardStyle.LeftWrapper>
-        <TextImageFrame descripsion={imageTitle}/>
+        <TextImageFrame descripsion={imageTitle} imageSrc={imageSrc}/>
       </CardStyle.LeftWrapper>
       <CardStyle.RightWrapper>
         <CardStyle.Container>
           <CardStyle.CardTitle>{title}</CardStyle.CardTitle>
           <CardStyle.CardDes>
-            {menu}
+            {des}
           </CardStyle.CardDes>
         </CardStyle.Container>
       </CardStyle.RightWrapper>
