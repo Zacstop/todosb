@@ -17,8 +17,8 @@ export const ReferenceCard = ({
         <ReferenceCardStyle.ImageWrapper src={imageSrc}></ReferenceCardStyle.ImageWrapper>
         <ReferenceCardStyle.TitleWrapper>
           <ReferenceCardStyle.Badges>
-            <Badge title='PMS' num='6'></Badge>
-            <Badge title='Vecsin' num='1'></Badge>
+            <Badge title='PMS' num='6' color=''></Badge>
+            <Badge title='Vecsin' num='1' color=''></Badge>
           </ReferenceCardStyle.Badges>
           <ReferenceCardStyle.Title>
             {title}
