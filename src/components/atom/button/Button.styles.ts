@@ -31,16 +31,19 @@ export const ButtonStyles = css`
   &:hover {
     filter: brightness(85%);
   } */
-  width: 141px;
-  height: 65px;
+  width: auto;
   flex-shrink: 0;
   font-family: Poppins;
-  border-radius: 10px;
+  border: none;
+  border-radius: 15px;
   background: #FFF;
   color: #3E86F5;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
-  word-break: keep-all;
+  padding: 20px;
+
+  @media (max-width: 375px) {
+    padding: 20px;
+  }
 `;

@@ -9,7 +9,7 @@ export const CardStyle = {
   //   align-items: center;
 
   //   /* mobile */
-  //   @media (max-width: 320px) {
+  //   @media (max-width: 375px) {
   //     display: flex;
   //   }
 

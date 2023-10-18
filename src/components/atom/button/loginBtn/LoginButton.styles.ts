@@ -17,7 +17,7 @@ export const LoginButtonStyles = {
     line-height: normal;
     
     /* mobile */
-    @media (max-width: 320px) {
+    @media (max-width: 375px) {
       display: flex;
       width: 24px;
       height: 24px;

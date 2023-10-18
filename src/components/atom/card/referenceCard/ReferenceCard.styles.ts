@@ -1,20 +1,67 @@
+// import styled from "styled-components";
+
+// export const ReferenceCardStyle = {
+//   Wrapper: styled.div`
+//     /* display: flex; */
+//     width: 400px;
+//     height: 477px;
+//     display: inline-flex;
+//     padding: 10px;
+//     flex-direction: column;
+//     align-items: flex-start;
+//     gap: 10px;
+//     border-radius: 50px;
+//     background: var(--White-primary, #FFF);
+//     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.05);
+//     padding: 10px;
+
+//     /* mobile */
+//     @media (max-width: 375px) {
+//       display: flex;
+//     }
+//   `,
+
+//   Container: styled.div`
+//     display: inline-flex;
+//     width: 100%;
+//     height: auto;
+//     padding: 10px;
+//     flex-direction: column;
+//     align-items: flex-start;
+//     gap: 20px;
+//   `,
+  
+//   ImageWrapper: styled.img`
+//     display: inline-flex;
+//     align-items: center;
+//     gap: 20px;
+//     border-radius: 50px;
+//   `,
+
+//   TitleWrapper: styled.div`
+//     display: flex;
+//     width: 293px;
+//     height: 113px;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 10px;
+//     flex-shrink: 0;
+
+//     @media (max-width: 375px) {
+//       /* display: flex; */
+//     }
+//   `,
+// };
 import styled from "styled-components";
 
 export const ReferenceCardStyle = {
   Wrapper: styled.div`
-    display: flex;
+    display: inline-flex;
+    padding: 10px;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-    width: 1180px;
-    height: 500px;
-    font-family: Poppins;
-    border-radius: 100px;
-    background-image: url("https://s3-alpha-sig.figma.com/img/71c4/2139/5fc25bf9d27ea1b1bec2a63b1da5233d?Expires=1697414400&Signature=iD6X3rOcHDymUHVVL8hNr74WgPf3dgJPMTLCXpJXAvCM4co3wTF0fcNZsMFUBS6YZKIEwuSYVAthA1Eef6VNgm4b~820~YLdUb4LRnsqW2s3lkkS1m7OFCQ0HIDwwV7~h4TflnjdvOTcVdSzSFfM~1GNlJDVpFEeoVqQ6~LEL5iBsromI0X5BWAkgwe9MNYWPs2Ki~rA2A318kEghIJwBb~jwer5PXPRLayAE35T2H0avuHessDIHSL60YMQOqfl-nw6o61w~PtInv7UcBv65WahtQmcY-ItD2FXCFEMkqHhd0W9ZTyltc1MfXID0clfc2sAuVSkMhe61Wslwm1gHA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: lightgray 50% / cover no-repeat, #3E86F5;
 
     /* mobile */
     @media (max-width: 375px) {
@@ -22,30 +69,61 @@ export const ReferenceCardStyle = {
     }
   `,
 
+  Container: styled.div`
+    width: 380px;
+    height: 457px;
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.05);
+  `,
+  
+  ImageWrapper: styled.img`
+    display: inline-flex;
+    align-items: center;
+    margin: 20px;
+    border-radius: 50px;
+  `,
+
   TitleWrapper: styled.div`
-    width: 743px;
-    height: 151px;
-    position: absolute;
-    left: 218px;
-    top: 114px;
-    color: #FFF;
-    text-align: center;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    flex-shrink: 0;
+    margin-left: 40px;
 
     @media (max-width: 375px) {
       /* display: flex; */
     }
   `,
 
-  ButtonWrapper: styled.div`
-    width: 220px;
-    height: 80px;
-    position: absolute;
-    left: 50%;
-    bottom: 10%;
-    filter: drop-shadow(4px 8px 25px rgba(62, 134, 245, 0.25));
+  Badges: styled.div`
+    display: flex;
+    width: 293px;
+    align-items: flex-start;
+    gap: 10px;
+  `,
+
+  Title: styled.div`
+    width: auto;
+    color: var(--Black-primary, #000);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  `,
+
+  SubTit: styled.div`
+    width: auto;
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
   `
 };

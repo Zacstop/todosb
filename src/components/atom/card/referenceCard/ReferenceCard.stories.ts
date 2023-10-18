@@ -16,7 +16,7 @@ type Story = StoryObj<typeof meta>;
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 export const Default: Story = {
   args: {
-    title: "Don’t Miss The 100% Discount if You register Today",
-    imageSrc: "",
+    title: "글로벌 제약사 G**",
+    imageSrc: "http://placehold.it/340x270",
   },
 };

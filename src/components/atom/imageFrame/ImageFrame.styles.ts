@@ -10,7 +10,7 @@ export const ImageFrameStyle = {
     box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.10);
 
     /* mobile */
-    @media (max-width: 320px) {
+    @media (max-width: 375px) {
       display: flex;
     }
 

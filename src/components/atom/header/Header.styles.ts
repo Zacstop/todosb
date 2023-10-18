@@ -13,7 +13,7 @@ export const HeaderStyle = {
     background: #3E86F5;
 
     /* mobile */
-    @media (max-width: 320px) {
+    @media (max-width: 375px) {
       display: flex;
       width: 375px;
       padding: 16px;
@@ -36,8 +36,12 @@ export const HeaderStyle = {
     gap: 160px;
     
     /* mobile */
-    @media (max-width: 320px) {
-      display: none;
+    @media (max-width: 375px) {
+      display: flex;
+      width: 375px;
+      padding: 16px;
+      justify-content: space-between;
+      align-items: center;
     }
   `,
 
@@ -51,7 +55,7 @@ export const HeaderStyle = {
     letter-spacing: -0.68px;
     
     /* mobile */
-    @media (max-width: 320px) {
+    @media (max-width: 375px) {
       color: rgba(0, 0, 0, 0.75);
       font-family: Work Sans;
       font-size: 20px;
@@ -86,7 +90,7 @@ export const HeaderStyle = {
     border: none;
 
     /* mobile */
-    @media (max-width: 320px) {
+    @media (max-width: 375px) {
       display: flex;
       width: 24px;
       height: 24px;
