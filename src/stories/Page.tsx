@@ -12,7 +12,7 @@ export const Page: React.FC = () => {
 
   return (
     <article>
-      <Header
+      {/* <Header
         user={user}
         onLogin={() => setUser({ name: 'Jane Doe' })}
         onLogout={() => setUser(undefined)}
@@ -67,7 +67,7 @@ export const Page: React.FC = () => {
           </svg>
           Viewports addon in the toolbar
         </div>
-      </section>
+      </section> */}
     </article>
   );
 };

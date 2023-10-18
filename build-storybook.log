@@ -1,10 +1,10 @@
 
 > todostory@0.1.0 build-storybook
-> storybook build "--output-dir" "C:\\Users\\USER\\AppData\\Local\\Temp\\chromatic--13052-zWeJ3D9fhL9c"
+> storybook build "--output-dir" "C:\\Users\\USER\\AppData\\Local\\Temp\\chromatic--13640-0cMYqJ9VlmkD"
 
 @storybook/cli v7.4.2
 
-info => Cleaning outputDir: C:\\Users\\USER\\AppData\\Local\\Temp\\chromatic--13052-zWeJ3D9fhL9c
+info => Cleaning outputDir: C:\\Users\\USER\\AppData\\Local\\Temp\\chromatic--13640-0cMYqJ9VlmkD
 info => Loading presets
 WARN The "@storybook/addon-mdx-gfm" addon is meant as a migration assistant for Storybook 7.0; and will likely be removed in a future version.
 WARN It's recommended you read this document:
@@ -14,9 +14,9 @@ WARN Once you've made the necessary changes, you can remove the addon from your 
 info Found existing addon "@storybook/addon-viewport/register", skipping.
 info Found existing addon "@storybook/addon-viewport/register", skipping.
 info => Building manager..
-info => Manager built (129 ms)
+info => Manager built (130 ms)
 info => Compiling preview..
-info => Copying static files: C:\Users\USER\Documents\todostory\node_modules\@storybook\manager\static at C:\Users\USER\AppData\Local\Temp\chromatic--13052-zWeJ3D9fhL9c\sb-common-assets
+info => Copying static files: C:\Users\USER\Documents\todostory\node_modules\@storybook\manager\static at C:\Users\USER\AppData\Local\Temp\chromatic--13640-0cMYqJ9VlmkD\sb-common-assets
 info Addon-docs: using MDX2
 info => Loading Webpack configuration from `node_modules\react-scripts`
 info => Removing existing JavaScript and TypeScript rules.
@@ -133,22 +133,34 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 19% building import loader ./node_modules/babel-loader/lib/index.js
 <s> [webpack.Progress] 19% building import loader ./node_modules/source-map-loader/dist/cjs.js
 <s> [webpack.Progress] 19% building 0/1 entries 17/18 dependencies 3/17 modules
-info => Copying static files: C:\Users\USER\Documents\todostory\public at C:\Users\USER\AppData\Local\Temp\chromatic--13052-zWeJ3D9fhL9c\
 <s> [webpack.Progress] 23% building import loader ./node_modules/@storybook/mdx2-csf/loader.js
 <s> [webpack.Progress] 23% building 0/1 entries 40/87 dependencies 8/32 modules
+info => Copying static files: C:\Users\USER\Documents\todostory\public at C:\Users\USER\AppData\Local\Temp\chromatic--13640-0cMYqJ9VlmkD\
 <s> [webpack.Progress] 17% building import loader ./node_modules/unplugin/dist/webpack/loaders/load.js
 <s> [webpack.Progress] 17% building 0/1 entries 89/127 dependencies 8/56 modules
 <s> [webpack.Progress] 24% building import loader ./node_modules/@svgr/webpack/lib/index.js
 <s> [webpack.Progress] 24% building import loader ./node_modules/file-loader/dist/cjs.js
 <s> [webpack.Progress] 24% building 0/1 entries 129/154 dependencies 20/77 modules
-<s> [webpack.Progress] 29% building import loader ./node_modules/mini-css-extract-plugin/dist/loader.js
-<s> [webpack.Progress] 29% building import loader ./node_modules/css-loader/dist/cjs.js
-<s> [webpack.Progress] 29% building import loader ./node_modules/postcss-loader/dist/cjs.js
-<s> [webpack.Progress] 29% building 0/1 entries 289/335 dependencies 56/156 modules
-<s> [webpack.Progress] 32% building 0/1 entries 429/500 dependencies 97/234 modules
-<s> [webpack.Progress] 41% building 0/1 entries 800/854 dependencies 198/341 modules
-<s> [webpack.Progress] 51% building 0/1 entries 1100/1119 dependencies 355/476 modules
-<s> [webpack.Progress] 65% building 1/1 entries 2012/2012 dependencies 770/770 modules
+<s> [webpack.Progress] 30% building import loader ./node_modules/mini-css-extract-plugin/dist/loader.js
+<s> [webpack.Progress] 30% building import loader ./node_modules/css-loader/dist/cjs.js
+<s> [webpack.Progress] 30% building import loader ./node_modules/postcss-loader/dist/cjs.js
+<s> [webpack.Progress] 30% building 0/1 entries 285/331 dependencies 56/154 modules
+<s> [webpack.Progress] 33% building 0/1 entries 400/446 dependencies 90/215 modules
+<s> [webpack.Progress] 42% building 0/1 entries 799/850 dependencies 200/340 modules
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+<s> [webpack.Progress] 54% building 0/1 entries 1163/1200 dependencies 395/493 modules
+<s> [webpack.Progress] 65% building 1/1 entries 2010/2010 dependencies 769/769 modules
 <s> [webpack.Progress] 65% building
 <s> [webpack.Progress] 69% building finish
 <s> [webpack.Progress] 69% building finish
@@ -254,22 +266,22 @@ info => Copying static files: C:\Users\USER\Documents\todostory\public at C:\Use
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.171892b3.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.171892b3.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.d5bce598.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.d5bce598.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.19a22d9d.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.19a22d9d.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Introduction-mdx.1bb5a796.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin stories-Introduction-mdx.1bb5a796.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-badge-Badge-stories.08a61dd5.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-badge-Badge-stories.08a61dd5.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-banner-Banner-stories.4bcb610d.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-banner-Banner-stories.4bcb610d.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-button-Button-stories.77c63001.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-button-Button-stories.77c63001.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-banner-Banner-stories.c88ddec9.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-banner-Banner-stories.c88ddec9.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-button-Button-stories.e57d6f4e.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-button-Button-stories.e57d6f4e.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-button-loginBtn-LoginButton-stories.2ae511ff.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-button-loginBtn-LoginButton-stories.2ae511ff.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-card-Card-stories.234a7907.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-card-Card-stories.234a7907.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-card-referenceCard-ReferenceCard-stories.204c6900.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-card-referenceCard-ReferenceCard-stories.204c6900.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-card-referenceCard-ReferenceCard-stories.f05528b5.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-card-referenceCard-ReferenceCard-stories.f05528b5.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-card-reverseCard-ReverseCard-stories.9e307540.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-card-reverseCard-ReverseCard-stories.9e307540.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin components-atom-firstSection-FirstSection-stories.0ed13707.iframe.bundle.js generate SourceMap
@@ -343,20 +355,20 @@ info => Copying static files: C:\Users\USER\Documents\todostory\public at C:\Use
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.e6bb869d.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.e6bb869d.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.072b297b.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.072b297b.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.ea900a95.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.ea900a95.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-badge-Badge-stories.1da55c82.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-badge-Badge-stories.1da55c82.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-banner-Banner-stories.0c01a276.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-banner-Banner-stories.0c01a276.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-button-Button-stories.9954e651.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-button-Button-stories.9954e651.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-banner-Banner-stories.4b161b4c.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-banner-Banner-stories.4b161b4c.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-button-Button-stories.48ac8315.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-button-Button-stories.48ac8315.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-button-loginBtn-LoginButton-stories.039b4c18.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-button-loginBtn-LoginButton-stories.039b4c18.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-card-Card-stories.22dfef97.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-card-Card-stories.22dfef97.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-card-referenceCard-ReferenceCard-stories.792b17b1.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-card-referenceCard-ReferenceCard-stories.792b17b1.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-card-referenceCard-ReferenceCard-stories.321fe424.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-card-referenceCard-ReferenceCard-stories.321fe424.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-card-reverseCard-ReverseCard-stories.90c6cbaf.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-card-reverseCard-ReverseCard-stories.90c6cbaf.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin components-atom-firstSection-FirstSection-stories.34c43c9c.iframe.bundle.js generate SourceMap
@@ -400,72 +412,51 @@ info => Copying static files: C:\Users\USER\Documents\todostory\public at C:\Use
 <s> [webpack.Progress] 93% sealing recording
 <s> [webpack.Progress] 94% sealing after seal
 <s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 98% emitting after emit SizeLimitsPlugin
+<s> [webpack.Progress] 98% emitting after emit
 <s> [webpack.Progress] 99% done plugins
 <s> [webpack.Progress] 99% done plugins CaseSensitivePathsPlugin
 <s> [webpack.Progress] 99% done plugins ForkTsCheckerWebpackPlugin
 <s> [webpack.Progress] 99% done plugins
 <s> [webpack.Progress] 99% 
 
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache store build dependencies
 <s> [webpack.Progress] 99% cache begin idle
 <s> [webpack.Progress] 99% cache begin idle
 <s> [webpack.Progress] 100% 
 
-=> Failed to build the preview
-TS2614: Module '"*.svg"' has no exported member 'Info'. Did you mean to use 'import Info from "*.svg"' instead?
-    1 | import type { Meta, StoryObj } from "@storybook/react";
-  > 2 | import { Info } from "../../../assets/icons/info-svgrepo-com.svg";
-      |          ^^^^
-    3 | // import { ReactComponent as Info } from "../../../assets/icons/info-svgrepo-com.svg";
-    4 | import Button from "./Button";
-    5 |
-TS2741: Property 'color' is missing in type '{ title: string; num: string; }' but required in type 'BadgeProps'.
-    18 |         <ReferenceCardStyle.TitleWrapper>
-    19 |           <ReferenceCardStyle.Badges>
-  > 20 |             <Badge title='PMS' num='6'></Badge>
-       |              ^^^^^
-    21 |             <Badge title='Vecsin' num='1'></Badge>
-    22 |           </ReferenceCardStyle.Badges>
-    23 |           <ReferenceCardStyle.Title>
-TS2741: Property 'color' is missing in type '{ title: string; num: string; }' but required in type 'BadgeProps'.
-    19 |           <ReferenceCardStyle.Badges>
-    20 |             <Badge title='PMS' num='6'></Badge>
-  > 21 |             <Badge title='Vecsin' num='1'></Badge>
-       |              ^^^^^
-    22 |           </ReferenceCardStyle.Badges>
-    23 |           <ReferenceCardStyle.Title>
-    24 |             {title}
-export 'Info' (imported as 'Info') was not found in '../../../assets/icons/info-svgrepo-com.svg' (possible exports: ReactComponent, default)
-[eslint] 
-src\components\atom\header\Header.tsx
-  Line 40:11:  Imported JSX component asdf must be in PascalCase or SCREAMING_SNAKE_CASE  react/jsx-pascal-case
-
-src\stories\Header.tsx
-  Line 3:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
-
-
+info => Preview built (17 s)
+WARN [eslint] 
+WARN src\components\atom\button\Button.tsx
+WARN   Line 1:17:  'SVGProps' is defined but never used  @typescript-eslint/no-unused-vars
+WARN 
+WARN src\components\atom\header\Header.tsx
+WARN   Line 40:11:  Imported JSX component asdf must be in PascalCase or SCREAMING_SNAKE_CASE  react/jsx-pascal-case
+WARN 
+WARN src\stories\Header.tsx
+WARN   Line 3:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+WARN 
+WARN 
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   426.46120555.iframe.bundle.js (583 KiB)
+WARN   719.0306764a.iframe.bundle.js (689 KiB)
+WARN   401.bb8c6813.iframe.bundle.js (454 KiB)
+WARN   342.eb8969a7.iframe.bundle.js (869 KiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (888 KiB)
+WARN       runtime~main.ea900a95.iframe.bundle.js
+WARN       342.eb8969a7.iframe.bundle.js
+WARN       main.e6bb869d.iframe.bundle.js
+WARN 
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 100% 
 
-Error: => Webpack failed, learn more with --debug-webpack
-    at .\node_modules\@storybook\builder-webpack5\dist\index.js:1:7628
-    at .\node_modules\webpack\lib\HookWebpackError.js:68:3
-    at Hook.eval [as callAsync] (eval at create (.\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:11:1)
-    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (.\node_modules\tapable\lib\Hook.js:18:14)
-    at Cache.shutdown (.\node_modules\webpack\lib\Cache.js:150:23)
-    at .\node_modules\webpack\lib\Compiler.js:1229:15
-    at Hook.eval [as callAsync] (eval at create (.\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:6:1)
-    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (.\node_modules\tapable\lib\Hook.js:18:14)
-    at Compiler.close (.\node_modules\webpack\lib\Compiler.js:1222:23)
-    at .\node_modules\@storybook\builder-webpack5\dist\index.js:1:7580
-    at finalCallback (.\node_modules\webpack\lib\Compiler.js:441:32)
-    at .\node_modules\webpack\lib\Compiler.js:458:13
-    at Hook.eval [as callAsync] (eval at create (.\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:35:1)
-    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (.\node_modules\tapable\lib\Hook.js:18:14)
-    at onCompiled (.\node_modules\webpack\lib\Compiler.js:456:21)
-    at .\node_modules\webpack\lib\Compiler.js:1200:17
-    at eval (eval at create (.\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:14:1)
-    at runMicrotasks (<anonymous>)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)
-info Found existing addon "@storybook/addon-viewport/register", skipping.
-[?25l[2K[1G[36m?[39m [1mWould you like to help improve Storybook by sending anonymous crash reports?[22m [90m»[39m [90m(Y/n)[39m
+info => Output directory: C:\\Users\\USER\\AppData\\Local\\Temp\\chromatic--13640-0cMYqJ9VlmkD

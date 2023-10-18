@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Info } from "../../../assets/icons/info-svgrepo-com.svg";
+// import { Info } from "../../../assets/icons/info-svgrepo-com.svg";
 // import { ReactComponent as Info } from "../../../assets/icons/info-svgrepo-com.svg";
 import Button from "./Button";
 
@@ -16,7 +16,7 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
   args: {
     type: "submit",
-    Icon: Info,
+    // Icon: '',
     label: "Button",
   },
 };
