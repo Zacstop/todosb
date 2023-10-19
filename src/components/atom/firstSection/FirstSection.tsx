@@ -19,18 +19,30 @@ export const FirstSection = ({
 
         <FirstSectionStyle.CardContainer>
           <FirstSectionStyle.ContentContainer>
-            <FirstSectionStyle.ContentDes>
-            KUBE-CRO's MediXForm Data Management solution revolutionizes the management and collection of clinical data. 
+            <FirstSectionStyle.ContentDesWrapper>
+              <FirstSectionStyle.FirstDes>
+                KUBE-CRO's MediXForm Data Management solution revolutionizes the management and collection of clinical data.
+              </FirstSectionStyle.FirstDes>
 
-Flexible Forms: Supports Text, Image, Video, enabling diverse studies.
-No CRF Coding: Eliminates the need for traditional CRF coding, reducing setup time.
-Easy Changes: Automatically migrates the database for updates without interruption.
-Realtime Validation: Manages queries in real-time, enhancing work efficiency.
+              <FirstSectionStyle.SecondDes>
+                <ol style={{wordWrap: 'break-word'}}>
+                  <li><FirstSectionStyle.Marker>Flexible Forms</FirstSectionStyle.Marker>: Supports Text, Image, Video, enabling diverse studies.</li>
+                  <li><FirstSectionStyle.Marker>No CRF Coding</FirstSectionStyle.Marker>: Eliminates the need for traditional CRF coding, reducing setup time.</li>
+                  <li><FirstSectionStyle.Marker>Easy Changes</FirstSectionStyle.Marker>: Automatically migrates the database for updates without interruption.</li>
+                  <li><FirstSectionStyle.Marker>Realtime Validation</FirstSectionStyle.Marker>: Manages queries in real-time, enhancing work efficiency.</li>
+                </ol>
+              </FirstSectionStyle.SecondDes>
 
-MediXForm is a powerful solution that increases efficiency and reliability in clinical research.
-            </FirstSectionStyle.ContentDes>
+              <FirstSectionStyle.ThirdDes>
+                MediXForm is a powerful solution that increases efficiency and reliability in clinical research.
+              </FirstSectionStyle.ThirdDes>
+            </FirstSectionStyle.ContentDesWrapper>
+            <FirstSectionStyle.Divider></FirstSectionStyle.Divider>
             <FirstSectionStyle.ContentTags>
-              XForm vaildattion migration attatchment
+              <FirstSectionStyle.ContentTag>XForm</FirstSectionStyle.ContentTag>
+              <FirstSectionStyle.ContentTag>vaildattion</FirstSectionStyle.ContentTag>
+              <FirstSectionStyle.ContentTag>migration</FirstSectionStyle.ContentTag>
+              <FirstSectionStyle.ContentTag>attatchment</FirstSectionStyle.ContentTag>
             </FirstSectionStyle.ContentTags>
           </FirstSectionStyle.ContentContainer>
           <FirstSectionStyle.ImageContainer>

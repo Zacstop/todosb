@@ -12,6 +12,11 @@ export const FirstSectionStyle = {
     /* mobile */
     @media (max-width: 375px) {
       display: flex;
+      padding: 20px 0px;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      align-self: stretch;
     }
     `,
 
@@ -58,7 +63,7 @@ export const FirstSectionStyle = {
     align-self: stretch;
   `,
 
-  ContentDes: styled.div`
+  ContentDesWrapper: styled.div`
     display: flex;
     padding: 20px 0px;
     flex-direction: column;
@@ -67,7 +72,7 @@ export const FirstSectionStyle = {
     align-self: stretch;
 
     /* text */
-    color: rgba(0, 0, 0, 0.75);
+    color: #000000bf;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
@@ -75,11 +80,47 @@ export const FirstSectionStyle = {
     line-height: normal;
   `,
 
+  FirstDes: styled.div`
+    color: #757575;
+  `,
+
+  SecondDes: styled.div`
+
+  `,
+
+  Marker: styled.div`
+    display: inline;
+    font-weight: 700;
+  `,
+
+  ThirdDes: styled.div`
+    display: inline;
+    font-weight: 700;
+  `,
+
+  Divider: styled.div`
+    width: 40%;
+    border: 3px solid #D1D9E2;
+    border-radius: 50px;
+  `,
+
   ContentTags: styled.div`
     display: flex;
     align-items: center;
-    gap: 8.75px;
+    gap: 10px;
     align-self: stretch;
+  `,
+
+  ContentTag: styled.div`
+    width: auto;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px 10px;
   `,
 
   ImageContainer: styled.div`
